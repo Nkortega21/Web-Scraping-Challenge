@@ -33,9 +33,13 @@ I examined the data types for each column and, if necessary, converted the data 
 
 I analyzed the dataset using Pandas functions to answer the following questions:
 
-How many months exist on Mars?
-How many Martian days worth of data exist in the scraped dataset?
-What are the coldest and warmest months on Mars at the location of Curiosity? To answer this question, I calculated the average minimum daily temperature for all of the months and plotted the results as a bar chart.
-Which months have the lowest and highest atmospheric pressure on Mars? To answer this, I calculated the average daily atmospheric pressure of all the months and plotted the results as a bar chart.
-About how many terrestrial days exist in a Martian year? I estimated this by considering how many days elapse on Earth in the time that Mars circles the Sun once and visually estimated the result by plotting the daily minimum temperature of each observation.
+1. **How many months exist on Mars?**
+2. **How many Martian days worth of data exist in the scraped dataset?**
+3. **What are the coldest and warmest months on Mars at the location of Curiosity?**  
+   To answer this question, I calculated the average minimum daily temperature for all of the months and plotted the results as a bar chart.
+4. **Which months have the lowest and highest atmospheric pressure on Mars?**  
+   To answer this, I calculated the average daily atmospheric pressure of all the months and plotted the results as a bar chart.
+5. **About how many terrestrial days exist in a Martian year?**  
+   I estimated this by considering how many days elapse on Earth in the time that Mars circles the Sun once and visually estimated the result by plotting the daily minimum temperature of each observation.
+   
 Finally, I exported the DataFrame to a CSV file.
