@@ -21,13 +21,14 @@ I used automated browsing to visit the Mars Temperature Data site at https://sta
 
 I created a Beautiful Soup object and used it to scrape the data from the HTML table. I then assembled the scraped data into a Pandas DataFrame with columns having the same headings as those on the website:
 
-id: the identification number of a single transmission from the Curiosity rover
-terrestrial_date: the date on Earth
-sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
-ls: the solar longitude
-month: the Martian month
-min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
-pressure: the atmospheric pressure at Curiosity's location
+- **id**: The identification number of a single transmission from the Curiosity rover
+- **terrestrial_date**: The date on Earth
+- **sol**: The number of elapsed sols (Martian days) since Curiosity landed on Mars
+- **ls**: The solar longitude
+- **month**: The Martian month
+- **min_temp**: The minimum temperature, in Celsius, of a single Martian day (sol)
+- **pressure**: The atmospheric pressure at Curiosity's location
+
 I examined the data types for each column and, if necessary, converted the data to the appropriate datetime, integer, or float types.
 
 I analyzed the dataset using Pandas functions to answer the following questions:
