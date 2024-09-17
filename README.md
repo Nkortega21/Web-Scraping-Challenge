@@ -43,3 +43,7 @@ I analyzed the dataset using Pandas functions to answer the following questions:
    I estimated this by considering how many days elapse on Earth in the time that Mars circles the Sun once and visually estimated the result by plotting the daily minimum temperature of each observation.
    
 Finally, I exported the DataFrame to a CSV file.
+
+Worked with Brendan and Chris.
+
+Used chatGPT to debug code.
